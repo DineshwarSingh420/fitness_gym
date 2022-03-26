@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness Den</title>
+  </head>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    /* <!-- CSS Reset --> */
+    body {
+      font-family: "Baloo Bhaijaan 2", cursive;
+      margin: 0px;
+      padding: 0px;
+      background: url("img/gym.jpg");
+      color: white;
+    }
+    .left {
+      display: inline-block;
+      /* border: 2px solid red; */
+      position: absolute;
+      left: 34px;
+      top: 20px;
+    }
+
+    .left img {
+      width: 40px;
+      filter: invert(100%);
+    }
+
+    .left div {
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .mid {
+      /* border: 2px solid rgb(56, 7, 172); */
+      display: block;
+      width: 36%;
+      margin: 20px auto;
+    }
+
+    .right {
+      /* border: 2px solid green; */
+      display: inline-block;
+      position: absolute;
+      right: 34px;
+      top: 20px;
+      
+    }
+
+    .navbar {
+      display: inline-block;
+    }
+
+    .navbar li {
+      display: inline-block;
+      font-size: 18px;
+    }
+
+    .navbar li a {
+      color: white;
+      text-decoration: none;
+      padding: 20px 17px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+      text-decoration: underline;
+      color: rgb(61, 152, 236);
+    }
+
+    .btn {
+      font-family: "Baloo Bhaijaan 2", cursive;
+      margin: 14px 10px;
+      color: white;
+      background-color: black;
+      padding: 3px 3px;
+      border: 2px solid grey;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: rgb(61, 152, 236);
+    }
+
+    .container {
+      border: 2px solid white;
+      margin: 126px 70px;
+      padding: 75px;
+      width: 32%;
+      border-radius: 35px;
+    }
+
+    .form-group input{
+        font-family: "Baloo Bhaijaan 2", cursive;
+        text-align: center;
+    display: block;
+    width: 440px;
+    padding: 5px;
+    border: 3px solid grey;
+    margin: 4px auto;
+    font-size: 17px;
+    border-radius: 20px;
+    }
+
+    .container h1{
+        text-align: center;
+    }
+
+    .container button{
+        display: block;
+        width: 47%;
+        margin:13px auto;
+        
+    }
+  </style>
+
+  <body>
+    <header class="header">
+      <!-- left box for logo -->
+      <div class="left">
+        <img src="img/yoga.png" alt="" />
+        <div>Fittness Den</div>
+      </div>
+
+      <!-- mid box for navigation -->
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Fittness calculator</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+
+      <!-- right box for button -->
+      <div class="right">
+        <button class="btn">Call us Now</button>
+        <button class="btn">Email US</button>
+      </div>
+    </header>
+
+    <div class="container"><h1>JOIN THE BEST GYM IN JAMMU NOW WITH 30% OFF!
+    </h1>
+
+<form action="noaction.php">
+
+<div class="form-group">
+    <input type="text" name="" placeholder="Enter your name">
+</div>
+
+<div class="form-group">
+    <input type="text" name="" placeholder="Enter your age">
+</div>
+
+<div class="form-group">
+    <input type="text" name="" placeholder="Enter your gender">
+</div>
+
+<div class="form-group">
+    <input type="text" name="" placeholder="Enter yor contact number">
+</div>
+
+<div class="form-group">
+    <input type="text" name="" placeholder="Enter your email">
+</div>
+
+<div class="form-group">
+    <input type="text" name="" placeholder="Enter your address">
+</div>
+
+<button class="btn">
+    SUBMIT
+</button>
+
+</form>
+
+</div>
+  </body>
+</html>
